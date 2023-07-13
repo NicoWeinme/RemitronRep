@@ -1,0 +1,12 @@
+C:\Users\nweinmeister\source\repos\Remitron\Remitron\obj\Debug\Remitron.csproj.AssemblyReference.cache
+C:\Users\nweinmeister\source\repos\Remitron\Remitron\obj\Debug\Remitron.csproj.SuggestedBindingRedirects.cache
+C:\Users\nweinmeister\source\repos\Remitron\Remitron\obj\Debug\Remitron.Properties.Resources.resources
+C:\Users\nweinmeister\source\repos\Remitron\Remitron\obj\Debug\Remitron.csproj.GenerateResource.cache
+C:\Users\nweinmeister\source\repos\Remitron\Remitron\obj\Debug\Remitron.csproj.CoreCompileInputs.cache
+C:\Users\nweinmeister\source\repos\Remitron\Remitron\bin\Debug\Remitron.exe.config
+C:\Users\nweinmeister\source\repos\Remitron\Remitron\bin\Debug\Remitron.exe
+C:\Users\nweinmeister\source\repos\Remitron\Remitron\bin\Debug\Remitron.pdb
+C:\Users\nweinmeister\source\repos\Remitron\Remitron\obj\Debug\Remitron.Form1.resources
+C:\Users\nweinmeister\source\repos\Remitron\Remitron\obj\Debug\Remitron.Info.resources
+C:\Users\nweinmeister\source\repos\Remitron\Remitron\obj\Debug\Remitron.exe
+C:\Users\nweinmeister\source\repos\Remitron\Remitron\obj\Debug\Remitron.pdb
