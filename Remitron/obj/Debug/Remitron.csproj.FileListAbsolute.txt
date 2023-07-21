@@ -10,3 +10,15 @@ C:\Users\nweinmeister\source\repos\Remitron\Remitron\obj\Debug\Remitron.Form1.re
 C:\Users\nweinmeister\source\repos\Remitron\Remitron\obj\Debug\Remitron.Info.resources
 C:\Users\nweinmeister\source\repos\Remitron\Remitron\obj\Debug\Remitron.exe
 C:\Users\nweinmeister\source\repos\Remitron\Remitron\obj\Debug\Remitron.pdb
+C:\Users\nweinmeister\source\repos\Remitron\Remitron\bin\Debug\es-AR\Remitron.resources.dll
+C:\Users\nweinmeister\source\repos\Remitron\Remitron\obj\Debug\Remitron.Form1.es-AR.resources
+C:\Users\nweinmeister\source\repos\Remitron\Remitron\obj\Debug\es-AR\Remitron.resources.dll
+C:\Users\nweinmeister\source\repos\Remitron\Remitron\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.dll
+C:\Users\nweinmeister\source\repos\Remitron\Remitron\obj\Debug\Remitron.csproj.CopyComplete
+C:\Users\nweinmeister\source\repos\Remitron\Remitron\bin\Debug\Microsoft.VisualStudio.Interop.dll
+C:\Users\nweinmeister\source\repos\Remitron\Remitron\bin\Debug\Microsoft.VisualStudio.Imaging.Interop.14.0.DesignTime.dll
+C:\Users\nweinmeister\source\repos\Remitron\Remitron\obj\Debug\Remitron.csproj.ResolveComReference.cache
+C:\Users\nweinmeister\source\repos\Remitron\Remitron\bin\Debug\es-BZ\Remitron.resources.dll
+C:\Users\nweinmeister\source\repos\Remitron\Remitron\obj\Debug\Remitron.Form1.es-BZ.resources
+C:\Users\nweinmeister\source\repos\Remitron\Remitron\obj\Debug\es-BZ\Remitron.resources.dll
+C:\Users\nweinmeister\source\repos\Remitron\Remitron\obj\Debug\Remitron.Form2.resources

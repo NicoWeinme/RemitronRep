@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Remitron
@@ -17,13 +10,10 @@ namespace Remitron
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void button1_Click(object sender, EventArgs e)
         {
+            
             Info info = new Info();
             info.Show();
         }
@@ -33,27 +23,37 @@ namespace Remitron
             Environment.Exit(0);
         }
 
-        private void label1_Click_1(object sender, EventArgs e)
-        {
 
+        private void Imprimir_Click(object sender, EventArgs e)
+        {
+            string Remito = GetComboBoxValue("comboBox1");
+            bool validador = true;
+            while (validador){
+                if (!string.IsNullOrEmpty(Remito))
+                {
+                    validador = false;
+                    if (Remito == "REMITO DIGITAL")
+                    {
+                        ExcelEditorDigital excelEditor = new ExcelEditorDigital();
+                        excelEditor.AbrirArchivoExcel(this);
+                    }
+                    else if (Remito == "REMITO PRE-IMPRESO")
+                    {
+                        ExcelEditor excelEditor = new ExcelEditor();
+                        excelEditor.AbrirArchivoExcel(this);
+                    }
+                }
+                else
+                {
+                    validador = false;
+                    Form2 form3 = new Form2(); 
+                    form3.Show();
+                }
+            } 
+            
         }
 
-        private void label6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label9_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label10_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
+        private void textBox42_TextChanged(object sender, EventArgs e)
         {
 
         }

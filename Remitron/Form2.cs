@@ -10,21 +10,17 @@ using System.Windows.Forms;
 
 namespace Remitron
 {
-    public partial class Info : Form
+    public partial class Form2 : Form
     {
-        public Info()
+        public Form2()
         {
-           InitializeComponent();
+            InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             Dispose();
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
+            
         }
     }
 }
