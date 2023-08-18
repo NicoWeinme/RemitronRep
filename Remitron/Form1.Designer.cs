@@ -100,6 +100,10 @@ namespace Remitron
             this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.textBox42 = new System.Windows.Forms.TextBox();
+            DateTime currentTime = DateTime.Now;
+            string day = currentTime.Day.ToString();
+            string month = currentTime.Month.ToString();
+            string year = currentTime.Year.ToString().Substring(2,2);
             this.SuspendLayout();
             // 
             // Remitron
@@ -149,18 +153,21 @@ namespace Remitron
             this.textBox1.BackColor = System.Drawing.SystemColors.Info;
             resources.ApplyResources(this.textBox1, "textBox1");
             this.textBox1.Name = "textBox1";
+            this.textBox1.Text = day;
             // 
             // textBox2
             // 
             this.textBox2.BackColor = System.Drawing.SystemColors.Info;
             resources.ApplyResources(this.textBox2, "textBox2");
             this.textBox2.Name = "textBox2";
+            this.textBox2.Text = month;
             // 
             // textBox3
             // 
             this.textBox3.BackColor = System.Drawing.SystemColors.Info;
             resources.ApplyResources(this.textBox3, "textBox3");
             this.textBox3.Name = "textBox3";
+            this.textBox3.Text = year;
             // 
             // label3
             // 
@@ -459,6 +466,7 @@ namespace Remitron
             resources.GetString("comboBox1.Items1")});
             resources.ApplyResources(this.comboBox1, "comboBox1");
             this.comboBox1.Name = "comboBox1";
+            this.comboBox1.DropDownStyle = ComboBoxStyle.DropDownList;
             // 
             // label15
             // 
@@ -470,6 +478,7 @@ namespace Remitron
             // 
             this.comboBox2.BackColor = System.Drawing.SystemColors.Info;
             this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.DropDownStyle = ComboBoxStyle.DropDown;
             this.comboBox2.Items.AddRange(new object[] {
             resources.GetString("comboBox2.Items"),
             resources.GetString("comboBox2.Items1"),
@@ -480,13 +489,14 @@ namespace Remitron
             // comboBox3
             // 
             this.comboBox3.BackColor = System.Drawing.SystemColors.Info;
+            this.comboBox3.DropDownStyle = ComboBoxStyle.DropDown;
             this.comboBox3.FormattingEnabled = true;
             this.comboBox3.Items.AddRange(new object[] {
             resources.GetString("comboBox3.Items"),
             resources.GetString("comboBox3.Items1"),
             resources.GetString("comboBox3.Items2")});
             resources.ApplyResources(this.comboBox3, "comboBox3");
-            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Name = "comboBox3";           
             // 
             // label16
             // 

@@ -16,7 +16,7 @@ namespace Remitron
             int second = currentTime.Second;
             string NRemito = form1.GetTextBoxValue("textBox4");
             string hora = (hour + "." + minute + "." + second);
-            string newname = (NRemito +" "+ Environment.UserName + " " + DateTime.Today.ToString("dd-MM-yyyy") + " " + hora + ".xlsx");
+            string newname = (DateTime.Today.ToString("yyyy-mm-dd") + " " + hora + " " + Environment.UserName + " " + NRemito + ".xlsx");
             string destino = (@"\\cpl-sanopera01\software\Remitron\Remitos Realizados\Digitales\" + newname);
 
             // Crear una instancia de la aplicación de Excel

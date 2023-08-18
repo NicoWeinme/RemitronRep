@@ -16,7 +16,7 @@ public class ExcelEditor
         int minute = currentTime.Minute;
         int second = currentTime.Second;
         string hora = (hour + "+" + minute + "+" + second);
-        string newname = (Environment.UserName + " " + DateTime.Today.ToString("dd-MM-yyyy") + " " + hora + ".xlsx");
+        string newname = (DateTime.Today.ToString("yyyy-mm-dd") + " " + hora + " " + Environment.UserName + ".xlsx");
         string destino = (@"\\cpl-sanopera01\software\Remitron\Remitos Realizados\Preimpresos\" + newname);
 
         // Crear una instancia de la aplicación de Excel
@@ -92,6 +92,9 @@ public class ExcelEditor
         Excel.Range Desc8 = worksheet.Range["D24"]; Desc8.Value = form1.GetTextBoxValue("textBox19");
         Excel.Range Desc9 = worksheet.Range["D25"]; Desc9.Value = form1.GetTextBoxValue("textBox18");
 
+        //Datos Emisor
+        Excel.Range EmisorNombre = worksheet.Range["C56"]; EmisorNombre.Value = form1.GetTextBoxValue("textBox42");
+        Excel.Range EmisorLeg = worksheet.Range["C55"]; EmisorLeg.Value = form1.GetTextBoxValue("textBox5");
 
         // Guardar los cambios (opcional)
         workbook.Save();

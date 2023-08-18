@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Windows.Forms;
 
 namespace Remitron
@@ -26,6 +27,12 @@ namespace Remitron
 
         private void Imprimir_Click(object sender, EventArgs e)
         {
+            List<string> Nombre = new List<string>();
+            List<string> Domicilio = new List<string>();
+            Nombre.Add(comboBox2.Text);
+            Domicilio.Add(comboBox3.Text);
+            comboBox2.DataSource = null; comboBox3.DataSource = null;
+            comboBox2.DataSource = Nombre; comboBox3.DataSource = Domicilio;
             string Remito = GetComboBoxValue("comboBox1");
             bool validador = true;
             while (validador){
